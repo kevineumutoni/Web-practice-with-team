@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Web practice</title>
+    <style>
+        body{
+            background-color: rgb(215, 236, 253);
+            margin-left: 35%;
+            margin-top: 150px;
+            
+  
+
+        }
+        .forms{
+            width: 480px;
+            height: 600px;  
+            padding: 30px;
+
+        
+            /*margin: 30px auto;*/
+            box-shadow: 2px 4px 4px 4px  black ;
+            
+        }
+        .signin{
+            margin: 8% auto;
+
+            box-shadow: 2px 2px 2px 2px black;
+
+        }
+        #name{
+            width: 300px;
+            height: 30px;
+            border-radius: 10px auto;
+        }
+        #email{
+            width:300px;
+            height: 30px;
+        }
+        #password{
+            width: 300px;
+            height: 30px;
+        }
+        .sign{
+            width: 64%;
+            height: 30px;
+        }
+
+    </style>
+</head>
+<body>
+   
+    <div class="forms">
+    <form>
+        <p>Already have an account? <a href="signin.html">Sign in</a></p>
+        <h1>Sign Up</h1>
+        <div class="input">
+        <label for="name">Name:</label><br><br>
+        <input type="text" id="name" required placeholder="Enter your name"><br><br>
+        <label for="email">Email:</label><br><br>
+        <input type="email" required id="email" placeholder="Enter your email"> <br><br>
+        <label for="password">Password</label><br><br>
+        <input type="password" required placeholder="Enter your password" name="password" id="password"><br><br>
+        </div>
+        <input type="checkbox" id="checkbox">
+        <label>I've read and agree with <b>The terms of service</b> and our <b>Privacy Policy</b></label><br><br>
+        <button type="submit" class="sign">Sign Up</button><br><br>
+
+        <p>Or sign up with</p>
+        <div>
+            <i class="fa fa-google"></i>
+            <i class="fa fa-facebook-f"></i>
+        </div>
+    </form>
+    </div>
+    
+</body>
+</html>

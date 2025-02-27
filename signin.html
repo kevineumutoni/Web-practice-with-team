@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Web practice</title>
+    <style>
+        body{
+            margin-left: 35%;
+            margin-top: 10%;
+            background-color: rgb(190, 248, 248);
+         
+        }
+        .classy{   
+            width: 400px;
+            height: 500px;
+  
+            box-shadow: rgb(245, 151, 151) 4px 4px 4px 4px, -4px -4px 4px 4px rgb(197, 125, 125);
+      
+            padding: 70px;
+        }
+        #email{
+            width: 300px;
+            height: 30px;
+        }
+        #password{
+            width:300px;
+            height: 30px;
+        }
+        .submit{
+            width:300px;
+            height: 40px;
+            background-color: black;
+         
+        }
+        .yy{
+            color: aliceblue;
+            text-decoration: none;
+        }
+        .icons{
+            font-size: medium;
+            margin-left: 300px
+        }
+
+      
+    </style>
+</head>
+<body>
+    <div class="classy">
+        <div>
+            <p>Don't have an account? <a href="index.html" style="color: black; text-decoration:none";><b>Sign up</b></a></p>
+            <h1>Sign In</h1>
+        </div>
+    <form>
+        <label for="email">Email:</label><br><br>
+        <input type="email" required id="email" placeholder="Enter your email"> <br><br>
+        <label for="password">Password</label><br><br>
+        <input type="password" required placeholder="Enter your password" name="password" id="password"><br><br>
+        <input type="checkbox" id="checkbox">
+        <label>I've read and agree with <b>The terms of service</b> and our <b>Privacy Policy</b></label><br><br>
+        <button type="submit" class="submit"><a href="tables.html" class="yy">  Sign Up</a></button><br><br>
+
+        <p>Or sign in with</p>
+        <div>
+            <i class="fa fa-google"></i>
+            <i class="fa fa-facebook-f"></i>
+        </div>
+
+
+    </form>
+    </div>
+</body>
+</html>
