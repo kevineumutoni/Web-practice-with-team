@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+body{
+    background-color: white;
+
+
+}
+.form {
+padding: 30px;
+width: 40%;
+border: solid 30% color wheat;
+margin: 30px auto;
+box-shadow: 10px 10px 10px 10px, -10px 10px 10px 10px;
+
+}
+
+#email{
+padding: 8px 12px;
+width: 90%;
+margin: 5px 0;
+
+}
+#password{
+    padding: 8px 12px;
+    width: 90%;
+    margin: 5px 0;
+}
+#submit_button{
+    padding: 8px 12px;
+    width: 95%;
+    margin: 5px 0;
+
+}
+.hr-lines{
+    position: relative;
+  max-width: 500px;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.hr-lines:before{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 0;
+
+}
+.hr-lines:after{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background:black;
+  display: block;
+  position: absolute;
+  top: 30%;
+  right: 0;
+
+}
+
+
+
+
+</style>
+<body>
+    <div class="form"> 
+        <form>
+    <p> Don't have an account? <a href="index.html"><b>Sign Up </b></a></p>
+    <br>
+    <h1> Sign In</h1>
+    <br>
+    <label for="email">Email:</label>
+<br><br>
+<input type="email" id="email" placeholder="Example.gmail">
+<br><br>
+<label for="password">Password:</label>
+<br><br>
+<input type="password" id="password" placeholder="Enter Password">   
+<br><br>
+<input type="checkbox" id="checkbox"><label> I've Read And Agree with The Terms Of Service And Our Privacy Policy</label>
+<br><br>
+<button type="submit" id="submit_button">Sign in</button> 
+<h3 class="hr-lines">or sign up with </h3>
+</body>
+</form>
+</div>
+</html>
