@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        form{
+            margin: 100px auto;
+            padding: 15px 15px;
+            font-size: larger;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            box-shadow: 5px 5px 5px 5px rgb(231, 220, 206);
+            width:30%
+        }
+        #submit_button{
+            width: 90%;
+            background-color: black;
+            margin: 10px;
+            cursor: pointer;
+            padding: 12px 8px;
+            color: white;
+        }
+        .lines{
+            position: relative;
+            max-width: 530px;
+            text-align: center;
+            margin: 40px;
+            }
+        .lines :before{
+            width: 160px;
+            height: 0px;
+            background: black;
+            display: block ;
+            position: absolute;
+            top: 50%;
+            right: 0 auto;
+            content:""
+        }
+        .lines :after{
+            content: " ";
+            height: 1px;
+            width: 160px;
+            background: rgb(70, 68, 68);
+            display: block;
+            position: absolute;
+            top: 50%;
+            right: 0;
+        }
+        #input{
+            width: 500px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+        }
+        #icons{
+            font-size: 30px;
+
+        }
+    </style>
+</head>
+<form>
+
+ <p>Already have an account ? <a href="signin.html" style="text-decoration: none;color: black;"><strong>sign in</strong></p></a><br>   
+ <h1>Sign Up</h1><br>
+ <label for="Name">Name:</label> <br><br>
+ <input type="text" placeholder="sadegh" id="input"/>
+ <br><br>
+ <label for="Email">Email:</label>
+ <br><br>
+ <input type="email" id="input" placeholder="sadeqaps@gmail.com" />
+ <br><br>
+ <label for="Password">Password</label>
+ <br><br>
+ <input type="password" placeholder="sakwjdkjl" id="input"/>
+ <br><br><br>
+ <input type="checkbox"/>
+ <label for="text">I've Read And Agree With<strong>The Terms Of Service</strong>  And Our <strong>Privacy Policy</strong></label>
+ <br><br>
+ <button type="submit" id="submit_button">Sign Up</button>
+ <p class="lines">Or Sign Up With</p>
+ <div style="display: flex;justify-content: center; gap: 40px;">
+  
+
+
+ <a href="https://www.google.com/" target="_blank" class="fa-brands fa-google"id="icons" style="box-shadow: 2px 2px 2px 2px rgb(129, 128, 128);text-decoration: none; color: black;"></a>
+        <i class="fa-brands fa-facebook"id="icons"></i>
+    </di>
+
+
+ </form>
+</body>
+</html>
