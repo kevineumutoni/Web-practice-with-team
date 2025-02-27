@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .signupform{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 16px;
+            width: 550px;
+            height: 700px;
+            margin: 200px auto;
+            padding:5px 5px 0px 50px;
+            border: 1px solid white;
+            box-shadow: 5px 5px 55px 5px rgb(206, 203, 203);
+        
+        }
+        #contents{
+            width: 90%;
+            height: 35px;
+            margin: auto;
+            padding: auto;
+            border: 0.5px solid rgb(138, 136, 136);
+            box-shadow: 0 0px 3px 0 gray;
+        
+        }
+        #submitbutton{
+            
+            background-color: black;
+            color: beige;
+            width: 91%;
+            height: 35px;
+            border: 1px solid black;
+            box-shadow: 0 1px 2px 0 gray;
+        
+        }
+        h4{
+            border-bottom: 1px solid black;
+            text-align: center;
+            margin: 10px  2px;
+            line-height: 0.1em;
+            width: 91%;
+            font-style:normal;
+            font-size: 16px;
+        }
+        .icons{
+        padding: 5px 5px 5px 170px;
+        }
+        h4 span{
+         background-color:white;
+         padding: 0 10px;
+            }
+        .checkbox{
+            width: 98%;
+            display:inline-block 3px;
+            border-style: none;
+        }
+            </style>
+        </head>
+        <body>
+            <Form class="signupform">
+                <br>
+                <br>
+                <p>Don't have an account? <a style="color: black;text-decoration: none;" href="signup.html"><b>Sign up</b></a>
+                </p>
+                <br>
+        <h1>Sign In</h1>
+        <br>
+        <label for="Email" >Email:</label>
+        <br>
+        <input type="email" id="contents" placeholder="andsds@yourexample.com">
+        <br>
+        <br>
+        <label for="password" >Password:</label>
+        <br>
+        <input type="password" id="contents" placeholder="enter password">
+        <br>
+        <br>
+        <br>
+        <div class="checkbox">
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox"> I've Read and Agree With <b>The Terms Of Service</b> And Our<b> Privacy Policy</b></b></label>
+        </div>
+        <br>
+        <br>
+        <button type="submit" id="submitbutton"><a style="text-decoration: none;color: beige;" href="https://all-about-saloi.netlify.app/">Sign In</a></button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h4><span>Or Sign In With</span></h4>
+        <div class="icons">
+            <i class="fa-brands fa-google" style="box-shadow: 2px 2px 4px 2px rgb(224, 223, 223);font-size: 25px;padding: 10px;margin: 20px;"> 
+                <a href="https://accounts.google.com/InteractiveLogin/signinchooser?
+                hl=en-gb&ifkv=ASSHykoye0V4UFfWniq9EmPIQe34Q3P3Fgswtd0c5ziJ
+                f_A7Hcwl6TUzoyMsQAAw3fKHxh5hNVmAzQ&ddm=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"></a></i>
+            <i class="fa-brands fa-facebook" style="font-size: 25px;padding: 3px;margin: 1px;"><a href="https://www.facebook.com/login.php/"></a></i>  
+        </div>
+        </Form>
+    
+</body>
+</html>
